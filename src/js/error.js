@@ -17,15 +17,8 @@ function showNotification(text) {
     styling: "angeler",
     text: text,
     stack: myStack,
-    delay: 700,
+    delay: 1000,
   });
 }
 
-// function showError() {
-//   error({
-//     type: "error",
-//     styling: "material",
-//     text: "This country does not found",
-//   });
-// }
 export default showNotification;
